@@ -5,12 +5,12 @@ class Demo{
 		int n=sc.nextInt();
 		for(int i=1;i<=n;i++){
 			int count=1;
+			int store=count*i;
 			for(int j=1;j<=n;j++){
-				System.out.print(count*i+" ");
-				count++;
+				System.out.print(store+" ");
+				store++;
 			}
 			System.out.println();
 		}
 	}
 }
-			
